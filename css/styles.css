@@ -1,0 +1,218 @@
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  font-family: 'Montserrat', sans-serif;
+  text-align: center;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: 'Montserrat-bold', sans-serif;
+}
+
+h2 {
+  font-weight: bold;
+}
+
+/* navbar */
+
+.navbar {
+  /* padding-bottom: 4.5rem; */
+}
+
+.navbar-brand {
+  font-family: 'Ubuntu', sans-serif;
+  font-size: 2.5rem;
+  font-weight: 800;
+}
+
+.tutorology-logo{
+  width: 30%;
+}
+
+.nav-item {
+  padding: 0 18px;
+}
+
+.nav-link {
+  font-size: 1.2rem;
+}
+
+/* title */
+
+#title {
+  background-color: #00008b;
+  color: white;
+}
+
+.heading1{
+  text-align: center;
+  color: #d9a157;
+}
+.images {
+  height: 600;
+}
+
+.container-fluid {
+  /* padding: 3% 5%; */
+}
+
+.big-heading {
+  font-size: 3rem;
+  line-height: 1.5;
+  font-weight: 900;
+}
+
+.download-btn {
+  margin: 5% 3% 2% 0;
+}
+
+
+/* @media (max-width:1103px) {
+  #title{
+    text-align: center;
+  }
+
+  .heading1{
+    text-align: center;
+  }
+  
+} */
+
+/* @media (min-width:992px) {
+  .dogPhoto {
+    transform: rotate(25deg);
+  }
+} */
+
+/* Features */
+
+#features {
+  position: relative;
+  background-color: white;
+  padding: 7% 25% 7% 25%;
+  z-index: 1;
+}
+
+.features-row {
+  text-align: center;
+}
+
+.features-icon {
+  color: #00008b;
+  margin-bottom: 10px;
+}
+
+.features-icon:hover {
+  color: #00003e;
+}
+
+.features-title {
+  font-size: 1.5rem;
+  font-weight: 600;
+}
+
+.features-p {
+  color: #8f8f8f;
+  padding: auto 20%;
+}
+
+/* Testimonial section */
+#testimonials {
+  background-color: #00008b;
+  text-align: center;
+  padding-bottom: 7%;
+  color: white;
+}
+
+.testimonial-image {
+  border-radius: 100%;
+  width: 15%;
+}
+
+/* .testimonial-text {} */
+
+.carousel-indicators {
+  margin-top: 100px;
+  margin-bottom: 0;
+}
+
+#press {
+  background-color: #00008b;
+  text-align: center;
+}
+
+.cred-logo {
+  width: 15%;
+  padding: 20px 20px 50px;
+}
+
+.carousel-item {
+  padding: 7% 15% 4%;
+}
+
+/* Pricing */
+
+#pricing {
+  padding: 100px;
+  text-align: center;
+}
+
+.pricing-header {}
+
+.pricing-cost {}
+
+.breed {
+  font-size: 1.5rem;
+  font-weight: 600;
+}
+
+.card {
+  padding: 3% 2%;
+}
+
+/* Call to Action */
+#cta {
+  text-align: center;
+  background-color: #00008b;
+  color: white;
+  padding: 5% 20%;
+}
+
+.download-btn-footer {
+  margin-bottom: 5%;
+  margin-top: 5%;
+}
+
+/* Footer */
+#footer {
+  text-align: center;
+  background-color: white;
+  padding: 5%;
+}
+
+.footer-icons {
+  margin: 10px;
+}
+
+.spin::before {
+    animation: 1.5s linear infinite spinner;
+    animation-play-state: inherit;
+    border: solid 5px #cfd0d1;
+    border-bottom-color: #1c87c9;
+    border-radius: 50%;
+    content: "";
+    height: 40px;
+    position: absolute;
+    top: 10%;
+    left: 10%;
+    transform: translate3d(-50%, -50%, 0);
+    width: 40px;
+    will-change: transform;
+  }
